@@ -1,0 +1,176 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: Arial;
+}
+.header {
+  text-align: center;
+  color: #266;
+}
+.judul {
+  font-size: 17pt;
+}
+.deskripsi {
+  font-size: 11pt;
+}
+.konten {
+  width: 950pt;
+  margin: 25pt auto;
+}
+.menu ul {
+  overflow: hidden;
+  color: #eee;
+  list-style: none;
+  float: left;
+  padding: 0;
+  width: 650px;
+  margin: 0 0 0;
+  background-color: #1abc1a;
+}
+.menu ul li {
+  margin: 0;
+  float: left;
+}
+.menu ul a {
+  padding: 25px;
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.menu ul a:hover {
+  text-decoration: underline;
+  background-color: #16a085;
+}
+
+.sidebar {
+  float: right;
+  width: 275px;
+}
+
+.widget {
+  padding: 225px;
+  margin: 0 0 25px;
+  background-color: #fff;
+  border-bottom: 2px solid #fff;
+  transition: all 0.5s ease;
+}
+
+.widget:hover {
+  border-bottom: 2px solid #3498db;
+}
+
+.widget h2 {
+  color: #3498db;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.blog {
+  float: left;
+}
+
+.post {
+  width: 600px;
+  padding: 25px;
+  margin: 25px auto;
+  background-color: #fff;
+  border: #dedede;
+}
+
+.post-info {
+  float: right;
+  text-align: center;
+  font-size: 12px;
+  margin: -10px 0 15px;
+  text-transform: uppercase;
+}
+
+.post img {
+  min-width: 650px;
+  max-width: 650px;
+  margin: 0 0 25px-25px;
+}
+
+.post h1 {
+  padding: 0;
+  margin: 0 0 15px;
+  font-weight: normal;
+  color: #666;
+  font-family: Georgia;
+}
+
+hr {
+  border: 0;
+  background-color: #dedede;
+  height: 1px;
+}
+
+.selengkapnya {
+  color: #000;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+  padding: 25px auto;
+  text-align: center;
+  background-color: #fff;
+}
+
+@media screen and (max-width) {
+  .header {
+    position: inherit;
+  }
+  .konten {
+    width: 90 px;
+    margin: 25 px auto;
+  }
+  .sidebar {
+    width: 100%;
+    margin: 25 px 0 0;
+    float: right;
+  }
+  .menu {
+    padding: 5%;
+  }
+  .menu ul {
+    width: 100%;
+    float: inherit;
+  }
+  .menu ul li {
+    float: inherit;
+    margin: 0;
+  }
+  .menu ul a {
+    padding: 15px;
+    font-size: 16 px;
+    border-top: 1px solid #1abf9f;
+    border-bottom: 1px solid #16a085;
+  }
+
+  .blog {
+    width: 90%;
+  }
+  .post {
+    float: inherit;
+    margin: 0 auto 25 px;
+    width: 100%;
+    border: 1px solid #16a085;
+    padding: 5%;
+    background-color: #fff;
+  }
+
+  .post img {
+    max-width: 110px;
+    margin: 0 0 25px -5%;
+    min-width: 110%;
+  }
+}
